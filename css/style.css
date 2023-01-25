@@ -31,7 +31,7 @@ header{
     height: 25px;
 }
 
-.links_top > ul{
+.links_top > ul,.links_bot ul{
     display: flex;
 }
 
@@ -39,7 +39,7 @@ li{
     list-style: none;
 }
 
-.links_top a, i{
+.links_top a, i, .links_bot a{
     text-decoration: none;
     color: white;
     margin-right: 5px;
@@ -129,7 +129,7 @@ span{
 
 footer{
     background-color: black;
-    height: 100px;
+    height: 80px;
     color: white;
 }
 
@@ -138,5 +138,19 @@ footer{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+    height: 100%;
+}
+
+.links_bot ul{
+    font-size: 10px;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+.link_affiliated > h5{
+    font-size: 12px;
+    margin-bottom: 5px;
 }
