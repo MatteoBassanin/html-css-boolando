@@ -44,13 +44,22 @@ li{
     margin-right: 5px;
 }
 
-.container_main{
-    width: 80%;
-    margin: auto;
+main{
+    padding-top: 100px;
 }
 
 
+.container_main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
 .pic_catalogue img{
+    width: 100%;
+}
+
+.pic_catalogue{
     width: calc(100% / 3);
 }
 
@@ -58,10 +67,11 @@ li{
     display: none;
 }
 
-.nohover_pic:hover .hover_pic{
-    display: inline-block;
+.pic_catalogue:hover .hover_pic{
+    display: block;
 }
 
-.nohover_pic:hover .nohover_pic{
+.pic_catalogue:hover .nohover_pic{
     display: none;
 }
+
