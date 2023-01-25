@@ -88,12 +88,35 @@ main{
 
 .tag.red{
     background-color: red; 
-    bottom: 10%;
+    bottom: 20%;
     left: 0;
 }
 
 .tag.green{
     background-color: green; 
-    bottom: 10%;
+    bottom: 20%;
     left: 15%;  
 }
+
+.tag.heart{
+    color: black;
+    background-color: white;
+    top: 5%;
+    right: 0;
+    padding: 20px;
+}
+
+span{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.discount{
+    color: red;
+    font-weight: 900;
+}
+
+.original_price{
+    text-decoration: line-through;
+}
+
