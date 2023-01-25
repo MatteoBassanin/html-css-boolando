@@ -43,3 +43,25 @@ li{
     color: white;
     margin-right: 5px;
 }
+
+.container_main{
+    width: 80%;
+    margin: auto;
+}
+
+
+.pic_catalogue img{
+    width: calc(100% / 3);
+}
+
+.hover_pic{
+    display: none;
+}
+
+.nohover_pic:hover .hover_pic{
+    display: inline-block;
+}
+
+.nohover_pic:hover .nohover_pic{
+    display: none;
+}
