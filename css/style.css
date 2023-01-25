@@ -10,7 +10,7 @@ body{
 
 header{
     min-height: 50px;
-    background-color: darkorange;
+    background-color: #FF6901;
     color: white;
     position: fixed;
     width: 100%;
@@ -23,8 +23,7 @@ header{
     align-items: center;
     width: 80%;
     margin: auto;
-    height: 50px;
-    
+    height: 50px;    
 }
 
 #boolean{
@@ -48,7 +47,6 @@ li{
 main{
     padding-top: 100px;
 }
-
 
 .container_main{
     width: 80%;
@@ -80,12 +78,15 @@ main{
     display: none;
 }
 
+.tag.heart:hover{
+    color: red;
+}
+
 .tag{
     color: white;
     padding: 5px;
     font-size: 12px;
     position: absolute;
-
 }
 
 .tag.red{
