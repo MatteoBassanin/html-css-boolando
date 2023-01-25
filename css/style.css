@@ -127,3 +127,16 @@ span{
     text-decoration: line-through;
 }
 
+footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+
+.container_footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
