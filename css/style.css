@@ -53,6 +53,7 @@ main{
     width: 80%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .pic_catalogue img{
@@ -60,7 +61,9 @@ main{
 }
 
 .pic_catalogue{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 10px);
+    margin-right: 10px;
+    position: relative;
 }
 
 .hover_pic{
@@ -75,3 +78,22 @@ main{
     display: none;
 }
 
+.tag{
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    position: absolute;
+
+}
+
+.tag.red{
+    background-color: red; 
+    bottom: 10%;
+    left: 0;
+}
+
+.tag.green{
+    background-color: green; 
+    bottom: 10%;
+    left: 15%;  
+}
