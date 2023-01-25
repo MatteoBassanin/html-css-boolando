@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    min-height: 50px;
+    background-color: darkorange;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    
+}
+
+#boolean{
+    height: 25px;
+}
+
+.links_top > ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+.links_top a, i{
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+}
